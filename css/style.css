@@ -1,0 +1,78 @@
+body{
+  margin-top:70px;    /*to fix navbar action that covers some grids' part */
+  font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6{ /*adding font to h*/
+  font-family:Poppins;
+}
+
+p{ /*adding font to par*/
+  font-family:Roboto;
+}
+
+.navbar-default{    /*Navbar background color set*/
+  background:#000;
+  border:0;
+  font-family:Poppins;
+}
+.navbar-other{    
+  color: #fff;
+}
+.navbar-brand{  /*Brand setup*/
+  font-size:20px;
+  color:#fff !important;
+  font-weight:bold;
+}
+
+#showcase h1{  /*heading settings*/
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#showcase img{ /*setting imgs size at container */
+  width:90%;
+  margin-left:60px;
+}
+
+#showcase .showcase-right{ /*giving margin to right part*/
+  margin-top:90px;
+}
+
+#testimonial{   /*css part of testimonial*/
+  background:#000;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top:40px;
+}
+
+#testimonial p{   /*part of par of testimonial*/
+  font-size:32px;
+  font-family: 'Josefin Sans';
+  color:#ff0000;
+}
+
+#testimonial p.customer{  /*part of customer of testimonial*/
+  font-size:20px;
+  color:#FFF;
+}
+
+#info1 .info-right{ /*giving margin to info's right part*/
+  margin: 50px;
+}
+
+
+#info2{ /*giving margin to info2*/
+  margin:20px 0 60px 0;
+}
+
+#contact{ /*contact setup*/
+  background:url(../img/image2.jpg);
+  padding:40px;
+  color:#fff;
+  background-size: 100% 100%;
+}
+
+footer{
+  padding:30px;
+}
